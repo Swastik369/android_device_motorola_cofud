@@ -20,7 +20,7 @@ AB_OTA_PARTITIONS += \
     boot \
     vbmeta_system
 BOARD_USES_RECOVERY_AS_BOOT := true
-
+TARGET_NO_RECOVERY := true
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
