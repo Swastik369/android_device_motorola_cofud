@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_cofud.mk
+    $(LOCAL_DIR)/twrp_cofud.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_cofud-user \
-    omni_cofud-userdebug \
-    omni_cofud-eng
+    twrp_cofud-user \
+    twrp_cofud-userdebug \
+    twrp_cofud-eng
